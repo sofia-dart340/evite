@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>You're Invited!</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/dam0jzl.css">
+    </head>
+
+    <body>
+    <div id="container">
+        
+        <div id="bat">
+        <script src="sketch.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js">
+        </script>
+        </div>
+        
+        <div id="picture">
+        <img src="pictures/graphic.png" alt="house">
+        </div>
+        
+        <div id="text">
+            
+        <p id="title">The Masque's Annual Hounted House</p>
+            
+        <div id="subtitle">
+            <p>Dan Rodden Theatre<br>October 21-22 <br>8-10 PM<br></p>
+        </div>
+            
+        <p id="description">The Masque is hosting their annual Haunted House!<br>Legend has it that the Dan Rodden Theatre is haunted. Lights flicker, floors creak, and sounds come from unknown places. Come walk through and explore what hidden secrets the Masque has been hiding in the depths of the theatre. Better bring a clean pair of underwear...trust us you'll need it.</p>
+        </div>
+        
+        <div id="link">
+            <a href="https://www.instagram.com/themasqueoflasalle/">Follow Us on Instagram for more Information!</a>
+        </div>
+        
+        <div id="rsvp">
+            RSVP
+        </div>
+    
+        <script>
+            let clickerButton = document.getElementById("rsvp")
+            let onButtonclick = function(){
+                clickerButton.innerHTML="BOO!";
+            }
+            clickerButton.addEventListener("click", onButtonclick)
+        </script>
+    </div>
+    </body>
+</html>

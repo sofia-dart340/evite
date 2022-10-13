@@ -1,0 +1,106 @@
+body{
+    background-color: #151F31;
+}
+
+#container {
+    background-color: #151F31;
+    border: 6px dotted #F0ECDC;
+    position: absolute;
+    width: 98%;
+    height:95%;
+    z-index: -1;
+    margin: 0px auto;
+    overflow: hidden;
+    font-family: lust-script, san-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#text {
+    position: absolute;
+    width: 50%;
+    left:655px;
+    top: -20px;
+    z-index: 2;
+    background-color: none;
+    text-align: center;
+}
+#title {
+    font-family: shlop,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #EF2518;
+    font-size: 50px;
+}
+
+#subtitle{
+    color: #F0ECDC;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+#description{
+    color: #F0ECDC;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+#bat {
+    width: 400px;
+    position: absolute;
+    z-index: 0;
+    top: -75px;
+    left: -55px;
+    transform: rotate(-35deg);
+}
+
+#picture{
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+#link{
+    position:absolute;
+    width: 45%;
+    left: 670px;
+    top: 430px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #F0ECDC;
+    color: #F0ECDC;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#rsvp{
+    position:absolute;
+    width: 45%;
+    left: 670px;
+    top: 515px;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #F0ECDC;
+    color: #F0ECDC;
+    font-family: sans-serif;
+    font-size: 25px;
+    z-index: 3;
+}
+
+a:link{
+    text-decoration: none;
+    color:#F0ECDC;
+}
+
+a:visited{
+    color: #F0ECDC;
+}
+
+a:hover{
+    color: #fdbb00;
+}
+
+#rsvp:hover{
+    color: #fdbb00;
+}
+
